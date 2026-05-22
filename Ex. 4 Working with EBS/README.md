@@ -80,7 +80,7 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 (Write the steps you followed in your own words)
 
-1. First, I created a VPC in Amazon Web Services. I gave it a CIDR block of 10.0.0.0/16. This
+1.First, I created a VPC in Amazon Web Services. I gave it a CIDR block of 10.0.0.0/16. This
 VPC acts as my private network where all my resources will be created.
 Next, I created a public subnet inside the VPC with CIDR 10.0.1.0/24. I enabled auto-assign
 public IP so that any instance launched in this subnet will automatically get a public IP
